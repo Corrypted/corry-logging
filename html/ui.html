@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div id="app" class="app hidden">
+        <div class="panel">
+            <div class="header">
+                <div class="title">
+                    <div class="dot"></div>
+                    <span>Event Logs</span>
+                </div>
+                <div class="header-actions">
+                    <div class="search">
+                        <input id="searchInput" type="text" placeholder="Search logs" autocomplete="off" />
+                    </div>
+                    <button class="close" id="closeBtn" aria-label="Close">ESC</button>
+                </div>
+            </div>
+            <div class="list" id="logList"></div>
+            <div class="footer">
+                <button class="page-btn" id="prevPage" aria-label="Previous page">&lt;</button>
+                <div class="page-text" id="pageText">Showing latest events</div>
+                <button class="page-btn" id="nextPage" aria-label="Next page">&gt;</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
