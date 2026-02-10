@@ -22,7 +22,7 @@ https://youtu.be/ThyZY9rlCGo
 ## Usage
 
 ### Exports
-Exports are exclusively available on the client and can't be called from server-side files.
+Exports can be used on both Client and Server side, but if used on the server side it won't populate with Client Information.
 
 **Client/Server**
 - `AddLog(level, message, notify)`
