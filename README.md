@@ -7,13 +7,17 @@ For support inquires please create a post in the support-forum channel on discor
 
 
 ### Video Preview
+https://youtu.be/ThyZY9rlCGo
 
+## Dependencies
+1. ox_lib - https://github.com/overextended/ox_lib
 
 ## Installation
 
 1. Clone or download this resource.
 2. Place it in the server's resource directory.
 3. Add the resource to your server config, if needed.
+4. Make sure all dependencies are installed.
 
 ## Usage
 
@@ -45,3 +49,6 @@ end)
 ```
 
 When clearing all logs, either delete the json file, or ctrl+a delete then type []
+
+## Credit
+Credit to GRAFT and the Boii Development Team for their simple to use Bridge resource(s) - https://github.com/boiidevelopment/graft
