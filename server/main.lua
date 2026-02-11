@@ -9,14 +9,14 @@ local function isAdmin(src, typea)
     local citizenid = bridge.get_player_id(src)
     
     if typea == 'delete' then
-        for _, admin in ipairs(config.deleteLogPermissions) do
+        for _, admin in ipairs(server.deleteLogPermissions) do
             if admin == license or admin == citizenid then
                 return true
             end
         end
         return false
     elseif typea == 'admin' then
-        for _, admin in ipairs(config.admins) do
+        for _, admin in ipairs(server.admins) do
             if admin == license or admin == citizenid then
                 return true
             end

@@ -18,6 +18,7 @@ client_scripts {
 server_scripts {
     --'@oxmysql/lib/MySQL.lua', -- remove if not using oxmysql
     'server/main.lua',
+    'config/admins.lua',
 }
 
 ui_page 'html/ui.html'
