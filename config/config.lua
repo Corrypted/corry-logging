@@ -2,14 +2,6 @@ config = {}
 
 config.debug = true -- Set to true to enable debug prints
 
-config.admins = {
-    'license:48c794dbb03fa8ca60601b379150f25452a5b20c',
-}
-
-config.deleteLogPermissions = {
-    'license:48c794dbb03fa8ca60601b379150f25452a5b20c',
-}
-
 config.notify = 'ox_lib' -- 'ox_lib', 'boii_ui', 'okokNotify', 'es_extended', or 'qb-core', 'standalone'
 config.framework = 'qb-core' --     "es_extended", "ND_Core", "ox_core", "qbx_core", "qb-core",
 
@@ -36,4 +28,5 @@ config.levels = {
         @param notify boolean - Whether to send a notification to admins - optional, defaults to false
         exports['corry-logging']:AddLog(level, message, notify)
         exports['corry-logging']:AddLog('WARN', 'Player attempted restricted action.')
+
 ]]
